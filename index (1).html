@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BlendPure · Estación inteligente de cuidado de belleza</title>
+  <meta name="description" content="BlendPure: propuesta académica de un dispositivo beauty-tech que integra limpieza, enjuague, desinfección UV-C y secado de esponjas de maquillaje. Investigación de mercado, encuesta y estrategia de marketing digital.">
+  <meta name="theme-color" content="#FAF7F3">
+
+  <!-- Open Graph (vista previa al compartir el enlace) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BlendPure · Tu esponja limpia. Tu rutina más simple.">
+  <meta property="og:description" content="Proyecto académico · Pontificia Universidad Javeriana · Mercadeo en Internet · 2026">
+  <meta property="og:image" content="img/hero-product.jpg">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='none' stroke='%23725D64' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23E8D3D4'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#inicio">Saltar al contenido</a>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#inicio" class="logo" aria-label="BlendPure, inicio">
+      <span class="logo__mark" aria-hidden="true"></span>
+      <span class="logo__text">BLENDPURE</span>
+    </a>
+
+    <nav class="nav" id="nav" aria-label="Secciones">
+      <a href="#inicio">Inicio</a>
+      <a href="#producto">Producto</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#propuesta">Propuesta de valor</a>
+      <a href="#mercado">Mercado</a>
+      <a href="#competencia">Competencia</a>
+      <a href="#investigacion">Investigación</a>
+      <a href="#entrevistas">Entrevistas</a>
+      <a href="#marco">Marco teórico</a>
+      <a href="#marketing">Marketing digital</a>
+      <a href="#conclusiones">Conclusiones</a>
+      <a href="#bolsa">Bolsa de compra</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="cart-btn" id="cartOpen" aria-label="Abrir bolsa de compra">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="cart-btn__count" id="cartCount">0</span>
+      </button>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+</header>
+
+<main>
+
+<!-- ===================== 1. HERO ===================== -->
+<section class="hero" id="inicio">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <p class="eyebrow">BEAUTY TECHNOLOGY · COLOMBIA</p>
+      <h1 class="hero__title">Tu esponja limpia.<br><em>Tu rutina más simple.</em></h1>
+      <p class="hero__lead">BlendPure propone una nueva forma de cuidar las esponjas de maquillaje, integrando limpieza, enjuague, desinfección UV-C y secado en una sola experiencia.</p>
+
+      <div class="hero__ctas">
+        <a href="#producto" class="btn btn--primary">Descubrir BlendPure</a>
+        <a href="#investigacion" class="btn btn--ghost">Conocer los resultados</a>
+      </div>
+
+      <ul class="steps-pills" aria-label="Las cuatro etapas">
+        <li><span>01</span>Limpia</li>
+        <li><span>02</span>Enjuaga</li>
+        <li><span>03</span>Desinfecta</li>
+        <li><span>04</span>Seca</li>
+      </ul>
+
+      <div class="hero__price">
+        <span class="hero__price-label">Precio de referencia</span>
+        <strong>COP $349.900</strong>
+        <small>Precio propuesto del proyecto académico. No es una compra comercial habilitada.</small>
+      </div>
+    </div>
+
+    <figure class="hero__media">
+      <div class="hero__frame">
+        <img class="js-product-img" alt="Estación BlendPure con una esponja de maquillaje rosa dentro de la cúpula transparente" loading="eager">
+      </div>
+      <figcaption class="tag tag--float">Prototipo conceptual · Demostración académica</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===================== 2. PRODUCTO ===================== -->
+<section class="section" id="producto">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Producto</p>
+      <h2 class="h2">Una nueva forma de cuidar tus herramientas de belleza.</h2>
+    </header>
+
+    <div class="product reveal">
+      <div class="product__media">
+        <img class="js-product-img" alt="BlendPure, estación de cuidado para esponjas de maquillaje" loading="lazy">
+      </div>
+
+      <div class="product__info">
+        <span class="tag">Prototipo conceptual · Demostración académica</span>
+        <h3 class="product__name">BlendPure <span>Estación inteligente de cuidado de belleza</span></h3>
+        <p class="product__price">COP $349.900 <small>precio de referencia propuesto</small></p>
+        <p>BlendPure es una estación propuesta para integrar en un solo ciclo las cuatro etapas del cuidado de una esponja de maquillaje: limpieza, enjuague, desinfección mediante UV-C y secado con aire frío. Su objetivo es reducir la fricción de un hábito que muchas usuarias saben que deberían cumplir, pero que pocas logran mantener.</p>
+
+        <ul class="checklist">
+          <li>Cuatro etapas integradas en una sola experiencia</li>
+          <li>Diseñada específicamente para esponjas de maquillaje</li>
+          <li>Pensada para el tocador: compacta y de uso en casa</li>
+        </ul>
+
+        <div class="product__buy">
+          <div class="qty" aria-label="Cantidad">
+            <button type="button" data-qty="-1" aria-label="Restar">−</button>
+            <output id="qtyValue">1</output>
+            <button type="button" data-qty="1" aria-label="Sumar">+</button>
+          </div>
+          <button class="btn btn--primary" id="addToBag">Agregar a la bolsa</button>
+        </div>
+        <p class="fineprint">BlendPure es una propuesta universitaria. No está fabricado, certificado ni disponible para envío; la bolsa es una simulación y no procesa pagos.</p>
+      </div>
+    </div>
+
+    <div class="cards cards--3">
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></div>
+        <h3>Ahorro de tiempo</h3>
+        <p>Busca reducir los pasos manuales de limpieza y la espera del secado.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 12h16M12 4v16" opacity=".0"/><rect x="4" y="4" width="16" height="16" rx="5"/><path d="M8.5 12.5l2.3 2.3L16 9.5"/></svg></div>
+        <h3>Simplicidad</h3>
+        <p>Una experiencia integrada que busca reducir el esfuerzo de mantener el hábito.</p>
+      </article>
+      <article class="card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3c3.5 4 6 7.5 6 11a6 6 0 0 1-12 0c0-3.5 2.5-7 6-11Z"/></svg></div>
+        <h3>Cuidado de la herramienta</h3>
+        <p>Un ciclo concebido específicamente para las esponjas de maquillaje.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 3. CÓMO FUNCIONA ===================== -->
+<section class="section section--sand" id="como-funciona">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Cómo funciona</p>
+      <h2 class="h2">Cuatro etapas. Una rutina más práctica.</h2>
+    </header>
+
+    <ol class="process">
+      <li class="process__step reveal">
+        <span class="process__num">01</span>
+        <div class="icon icon--lg"><svg viewBox="0 0 24 24"><circle cx="8" cy="9" r="2.5"/><circle cx="15" cy="7" r="1.6"/><circle cx="15.5" cy="14" r="3"/><circle cx="8" cy="17" r="1.4"/></svg></div>
+        <h3>Limpieza</h3>
+        <p>Retirar residuos de maquillaje mediante el proceso de limpieza propuesto.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">02</span>
+        <div class="icon icon--lg"><svg viewBox="0 0 24 24"><path d="M7 3c2 2.6 3.5 4.7 3.5 6.6a3.5 3.5 0 0 1-7 0C3.5 7.7 5 5.6 7 3ZM16.5 9c2 2.6 3.5 4.7 3.5 6.6a3.5 3.5 0 0 1-7 0c0-1.9 1.5-4 3.5-6.6Z"/></svg></div>
+        <h3>Enjuague</h3>
+        <p>Retirar residuos del producto limpiador.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">03</span>
+        <div class="icon icon--lg"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg></div>
+        <h3>Desinfección</h3>
+        <p>Etapa propuesta con tecnología UV-C.</p>
+      </li>
+      <li class="process__step reveal">
+        <span class="process__num">04</span>
+        <div class="icon icon--lg"><svg viewBox="0 0 24 24"><path d="M3 8h11a3 3 0 1 0-3-3M3 12h15a3 3 0 1 1-3 3M3 16h7"/></svg></div>
+        <h3>Secado</h3>
+        <p>Etapa propuesta mediante aire frío.</p>
+      </li>
+    </ol>
+
+    <p class="note reveal"><strong>Nota técnica.</strong> Las etapas describen el concepto de BlendPure. Los tiempos, la compatibilidad con materiales, la eficacia de desinfección y la seguridad del dispositivo deben sustentarse en pruebas documentadas antes de formular afirmaciones de desempeño.</p>
+  </div>
+</section>
+
+<!-- ===================== 4. PROBLEMA ===================== -->
+<section class="section" id="problema">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Problema de investigación</p>
+      <h2 class="h2">El problema no siempre es saber. <em>Es hacerlo.</em></h2>
+    </header>
+
+    <div class="stats stats--3">
+      <div class="stat reveal"><span class="stat__num" data-count="39" data-suffix="%">0%</span><p>de las mujeres limpia sus herramientas de maquillaje menos de una vez al mes.</p></div>
+      <div class="stat reveal"><span class="stat__num" data-count="22" data-suffix="%">0%</span><p>nunca limpia sus esponjas o brochas de maquillaje.</p></div>
+      <div class="stat reveal"><span class="stat__num">70–90%</span><p>de los productos de maquillaje analizados presentó contaminación bacteriana.</p></div>
+    </div>
+    <p class="source reveal">Fuentes: Beautyblender (2025); Salon Services (s.f.); Bashir y Lambert, Aston University, citados en EMJ Reviews (2020). Esta evidencia muestra presencia de microorganismos, no que una esponja sucia vaya necesariamente a enfermar a alguien.</p>
+
+    <div class="chain reveal" aria-label="Cadena del problema">
+      <div class="chain__item">Uso frecuente de esponjas</div>
+      <div class="chain__item">Baja frecuencia de limpieza</div>
+      <div class="chain__item">Proceso manual tedioso</div>
+      <div class="chain__item">Tiempo y esfuerzo</div>
+      <div class="chain__item chain__item--end">Baja adherencia al hábito</div>
+    </div>
+
+    <div class="split">
+      <div class="manual reveal">
+        <h3 class="h4">La rutina manual de hoy</h3>
+        <ol class="manual__list">
+          <li>Mojar</li><li>Jabonar</li><li>Frotar</li><li>Enjuagar</li><li>Secar</li><li class="is-wait">Esperar horas</li>
+        </ol>
+        <p class="quote-sm">“BlendPure no vende una máquina. Vende tiempo y conveniencia.”</p>
+      </div>
+
+      <blockquote class="question reveal">
+        <span class="eyebrow">Pregunta problema</span>
+        <p>¿Existe, entre las mujeres jóvenes adultas usuarias de maquillaje de cobertura en Bogotá, una fricción de tiempo y esfuerzo en la limpieza manual de sus esponjas lo suficientemente relevante como para justificar una estación automática de limpieza, desinfección y secado como BlendPure?</p>
+      </blockquote>
+    </div>
+
+    <p class="lead-center reveal">El valor de la propuesta no está solo en limpiar: está en la <strong>conveniencia</strong>, la <strong>reducción del esfuerzo</strong> y la <strong>integración del proceso</strong> en un solo ciclo.</p>
+  </div>
+</section>
+
+<!-- ===================== 5. PROPUESTA DE VALOR ===================== -->
+<section class="section section--blush" id="propuesta">
+  <div class="container value">
+    <div class="value__copy">
+      <header class="section__head section__head--left reveal">
+        <p class="eyebrow">Propuesta de valor</p>
+        <h2 class="h2">Limpia. Enjuaga.<br>Desinfecta. Seca.</h2>
+      </header>
+
+      <div class="pillars">
+        <article class="pillar reveal">
+          <span class="pillar__n">01</span>
+          <div><h3>Ahorro de tiempo</h3><p>Reducir la secuencia manual (mojar, jabonar, frotar, enjuagar) y la espera asociada al secado.</p></div>
+        </article>
+        <article class="pillar reveal">
+          <span class="pillar__n">02</span>
+          <div><h3>Simplicidad</h3><p>Integrar las etapas en una experiencia concebida para reducir la fricción: la usuaria no tiene que pensar en el paso a paso.</p></div>
+        </article>
+        <article class="pillar reveal">
+          <span class="pillar__n">03</span>
+          <div><h3>Cuidado de la herramienta</h3><p>Diseñar el proceso pensando en los materiales de las esponjas, no en un ciclo genérico.</p></div>
+        </article>
+      </div>
+      <p class="fineprint reveal">No se presentan afirmaciones sanitarias ni porcentajes de reducción de bacterias: la eficacia técnica de BlendPure aún no ha sido validada.</p>
+    </div>
+
+    <figure class="value__media reveal">
+      <img class="js-alt-img" alt="Render conceptual de BlendPure sobre un tocador" loading="lazy">
+      <figcaption>Render conceptual del dispositivo</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===================== 6. MERCADO ===================== -->
+<section class="section" id="mercado">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Mercado y análisis externo</p>
+      <h2 class="h2">Una oportunidad en belleza y tecnología.</h2>
+    </header>
+
+    <div class="stats stats--4">
+      <div class="stat stat--card reveal">
+        <span class="stat__label">Belleza y cuidado personal · Colombia</span>
+        <span class="stat__num stat__num--sm">4,4–5,5%</span>
+        <p>CAGR estimado 2025–2032. Tamaño de mercado: USD 3.300–4.320 M (2024–2025).</p>
+        <cite>Verified Market Research (2025); DataInsightsMarket (2026)</cite>
+      </div>
+      <div class="stat stat--card reveal">
+        <span class="stat__label">Maquillaje / cosméticos</span>
+        <span class="stat__num stat__num--sm" data-count="8.32" data-decimals="2" data-suffix="%">0%</span>
+        <p>CAGR del segmento de maquillaje, por encima del mercado general.</p>
+        <cite>Mordor Intelligence (2026)</cite>
+      </div>
+      <div class="stat stat--card reveal">
+        <span class="stat__label">Beauty-tech global</span>
+        <span class="stat__num stat__num--sm" data-count="13.3" data-decimals="1" data-suffix="%">0%</span>
+        <p>De USD 79.380 M (2025) a USD 89.940 M (2026); proyectado en USD 146.040 M para 2030.</p>
+        <cite>Research and Markets (2026)</cite>
+      </div>
+      <div class="stat stat--card reveal">
+        <span class="stat__label">Canal online · Colombia</span>
+        <span class="stat__num stat__num--sm" data-count="9.95" data-decimals="2" data-suffix="%">0%</span>
+        <p>Crecimiento anual del canal online de belleza, el más rápido de todos los canales.</p>
+        <cite>Fuentes del Anexo 4 del proyecto</cite>
+      </div>
+    </div>
+
+    <p class="note reveal"><strong>Importante.</strong> El mercado de cosméticos es un mercado de referencia amplio y no equivale al mercado específico de dispositivos limpiadores de esponjas, que aún no existe como categoría consolidada. Las cifras corresponden a definiciones, años y fuentes diferentes, por lo que no deben sumarse ni compararse como si midieran lo mismo.</p>
+
+    <!-- TAM / SAM / SOM -->
+    <div class="sizing reveal">
+      <div class="sizing__funnel">
+        <div class="funnel funnel--tam">
+          <span class="funnel__k">TAM</span>
+          <strong>USD 351,72 M</strong>
+          <span>Mercado colombiano de cosméticos y maquillaje, 2025 (Mordor Intelligence, 2026)</span>
+        </div>
+        <div class="funnel funnel--sam">
+          <span class="funnel__k">SAM</span>
+          <strong>≈ 512.975 personas</strong>
+          <span>Mercado potencial estimado del proyecto</span>
+        </div>
+        <div class="funnel funnel--som">
+          <span class="funnel__k">SOM</span>
+          <strong>No cuantificado</strong>
+          <span>Depende del precio definitivo y de la validación de la disposición a pagar</span>
+        </div>
+      </div>
+
+      <div class="sizing__calc">
+        <h3 class="h4">Cómo se calcula el SAM</h3>
+        <ol class="calc">
+          <li><strong>3.248.320</strong><span>mujeres adultas en Bogotá (DANE vía Telencuestas, 2025)</span></li>
+          <li><strong>≈ 2.728.589</strong><span>con acceso a internet urbano: 84 %</span></li>
+          <li><strong>≈ 1.282.437</strong><span>de 18 a 45 años: 47 % <em>(supuesto)</em></span></li>
+          <li class="is-final"><strong>≈ 512.975</strong><span>usan maquillaje de cobertura: 40 % <em>(supuesto)</em></span></li>
+        </ol>
+        <p class="source">Los porcentajes de edad y uso son supuestos del documento, no datos medidos. Pasos intermedios: cálculos propios. Fuente: Anexo 4 (Mordor Intelligence, 2026; DANE vía Telencuestas, 2025; PCM Agencia, 2025).</p>
+      </div>
+    </div>
+
+    <!-- Buyer persona -->
+    <div class="persona reveal">
+      <div class="persona__id">
+        <div class="avatar" aria-hidden="true">S</div>
+        <div>
+          <p class="eyebrow">Buyer persona</p>
+          <h3>Sara, 27</h3>
+          <p>Profesional beauty-conscious · Bogotá (Chapinero / Usaquén) · estrato 4</p>
+        </div>
+      </div>
+      <dl class="persona__grid">
+        <div><dt>Hábitos de maquillaje</dt><dd>Usa base y corrector con beauty blender 5 días a la semana; sigue tutoriales en Instagram y TikTok.</dd></div>
+        <div><dt>Hábitos de limpieza</dt><dd>Limpia su esponja cada 2–3 semanas por falta de tiempo, aun sabiendo que debería hacerlo más seguido.</dd></div>
+        <div><dt>Motivaciones</dt><dd>Verse impecable sin invertir tiempo excesivo; cuidar su piel, propensa a brotes ocasionales.</dd></div>
+        <div><dt>Barreras de compra</dt><dd>Precio del dispositivo; escepticismo ante nuevos “gadgets”; necesita ver demostraciones antes de comprar.</dd></div>
+      </dl>
+      <p class="source">Segmento: mujeres de 18–35 años, urbanas, inicialmente Bogotá, estratos medios y medio-altos. Persona construida por triangulación de datos secundarios (Accenture y TikTok, citado en El Colombiano, 2024; Mordor Intelligence, 2026).</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 7. COMPETENCIA ===================== -->
+<section class="section section--sand" id="competencia">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Competencia y sustitutos</p>
+      <h2 class="h2">Nadie integra hoy las cuatro etapas en un ciclo.</h2>
+    </header>
+
+    <div class="table-wrap reveal">
+      <table class="table table--compare">
+        <thead>
+          <tr><th>Producto</th><th>Limpieza</th><th>Enjuague</th><th>Desinfección</th><th>Secado</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Lavado manual</td><td><i class="y">Sí</i></td><td><i class="p">Parcial</i></td><td><i class="n">No</i></td><td><i class="n">No (horas)</i></td></tr>
+          <tr><td>Blendercleanser (Beautyblender)</td><td><i class="y">Sí</i></td><td><i class="p">Manual</i></td><td><i class="n">No</i></td><td><i class="n">No</i></td></tr>
+          <tr><td>Dispositivos genéricos</td><td><i class="y">Sí</i></td><td><i class="p">Parcial</i></td><td><i class="n">No</i></td><td><i class="n">No</i></td></tr>
+          <tr><td>STYLPRO Squeeze Sponge Cleaner</td><td><i class="y">Sí</i></td><td><i class="y">Sí</i></td><td><i class="n">No</i></td><td><i class="n">No automático</i></td></tr>
+          <tr class="is-us"><td>BlendPure <small>(propuesta)</small></td><td><i class="y">Sí</i></td><td><i class="y">Sí</i></td><td><i class="y">Sí (UV-C)</i></td><td><i class="y">Sí (aire frío)</i></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="source reveal">STYLPRO anuncia un ciclo de limpieza de aproximadamente un minuto para su modelo Squeeze: es un dato del fabricante, no una prueba de BlendPure. Fuentes: Stylideas (s.f.); Boots (s.f.); Beautyblender (s.f.); Salon Services (s.f.); comparativa completa en Anexo 5.</p>
+
+    <div class="split split--chart">
+      <div class="chart-card reveal">
+        <h3 class="h4">¿Cuánto cuestan hoy las alternativas?</h3>
+        <p class="chart-card__sub">Punto medio del rango publicado, en COP</p>
+        <div class="bars" data-chart="costs"></div>
+        <p class="source">Fuente: Anexos 5 y 7 (Mercado Libre, eBay, Sephora, Care to Beauty, Beautyblender.com, Boots, Superdrug, Amazon, 2026). No son precios medios medidos: son los puntos medios de los rangos del documento.</p>
+      </div>
+      <div class="insight reveal">
+        <span class="eyebrow">Lectura estratégica</span>
+        <p class="insight__big">El sustituto dominante —jabón y agua— cuesta casi nada.</p>
+        <p>El rango objetivo equivale a unas cuatro esponjas premium. Otras referencias: Blendercleanser, USD 10–18; STYLPRO Original Brush Cleaner &amp; Dryer, GBP 35–55 (para brochas, no esponjas).</p>
+        <p><strong>Implicación:</strong> BlendPure debe justificar su precio con <em>tiempo ahorrado</em>, no con limpieza. El 56,5 % de las encuestadas pagaría menos de COP 150.000.</p>
+      </div>
+    </div>
+
+    <!-- Antecedentes -->
+    <div class="cases">
+      <div class="cases__head reveal">
+        <h3 class="h3">Lo que enseñan otros casos</h3>
+        <div class="toggle" role="tablist" aria-label="Tipo de caso">
+          <button role="tab" class="is-active" aria-selected="true" data-cases="exito">Casos de éxito</button>
+          <button role="tab" aria-selected="false" data-cases="fracaso">Casos de fracaso</button>
+        </div>
+      </div>
+
+      <div class="cards cards--3 cases__group is-active" data-group="exito">
+        <article class="case reveal"><span class="case__meta">Dyson Airwrap · 2018</span><h4>El precio premium sí funciona en beauty-tech</h4><p>USD 500–600, listas de espera de +100.000 personas y 4 unidades vendidas por minuto en 2021.</p><p class="case__lesson">Un precio alto no es barrera si el producto se demuestra bien en video.</p></article>
+        <article class="case reveal"><span class="case__meta">Beautyblender · 2002</span><h4>Crear una categoría desde cero</h4><p>+50 millones de unidades vendidas; una esponja cada 17 minutos en Sephora y Ulta (Forbes, 2021).</p><p class="case__lesson">Un problema real y específico, bien resuelto, puede crear su propia categoría.</p></article>
+        <article class="case reveal"><span class="case__meta">Foreo Luna · 2013</span><h4>Ganar por el argumento de higiene</h4><p>Silicona no porosa frente a cerdas que acumulan bacterias; 1.500+ puntos de venta en meses y 4.000 tiendas a nivel global.</p><p class="case__lesson">La higiene, bien comunicada, puede sostener la propuesta de valor: el caso más cercano a BlendPure.</p></article>
+      </div>
+
+      <div class="cards cards--3 cases__group" data-group="fracaso">
+        <article class="case"><span class="case__meta">Juicero · 2017</span><h4>Automatizó algo ya fácil de hacer a mano</h4><p>USD 120 M levantados y un exprimidor de USD 700; las bolsitas se exprimían igual con las manos. Cerró 16 meses después.</p><p class="case__lesson">Automatizar no da valor si el problema no es lo bastante doloroso.</p></article>
+        <article class="case"><span class="case__meta">Color&amp;Co (L’Oréal) · 2019</span><h4>Buena recepción no garantiza recompra</h4><p>Coloración capilar personalizada con videoconsulta; buena crítica y premios, pero cerró en 2022.</p><p class="case__lesson">Se necesita un modelo de ingresos recurrentes validado, no solo una buena primera compra.</p></article>
+        <article class="case"><span class="case__meta">Clarisonic · cerró en 2020</span><h4>Un producto estrella no basta para siempre</h4><p>Líder de cepillos sónicos (+USD 100 M en 2010). Saturación, dependencia de un solo producto y desconexión con jóvenes.</p><p class="case__lesson">Innovar de forma continua y construir un motivo real de recompra.</p></article>
+      </div>
+      <p class="source">Fuentes: Forbes (2021, 2022); Perks With Pink (2026); Drug Store News (s.f.); Fortune (2017); WWD (2020); Business of Business (2020).</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 8. INVESTIGACIÓN ===================== -->
+<section class="section" id="investigacion">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Investigación primaria · Encuesta</p>
+      <h2 class="h2">El hábito de uso existe. El de limpieza, no.</h2>
+      <p class="section__intro">Encuesta exploratoria vía Google Forms a <strong>147 mujeres universitarias</strong> de la Pontificia Universidad Javeriana. Muestra por conveniencia, no representativa del segmento objetivo.</p>
+    </header>
+
+    <div class="stats stats--4">
+      <div class="stat stat--card reveal"><span class="stat__num" data-count="60.5" data-decimals="1" data-suffix="%">0%</span><p>usa la esponja todos los días o 1–2 veces por semana (P1).</p></div>
+      <div class="stat stat--card reveal"><span class="stat__num" data-count="68" data-suffix="%">0%</span><p>la limpia una vez al mes o menos (P2).</p></div>
+      <div class="stat stat--card reveal"><span class="stat__num" data-count="87.7" data-decimals="1" data-suffix="%">0%</span><p>señala olvido, pereza o tiempo del proceso como causa (P3).</p></div>
+      <div class="stat stat--card stat--alert reveal"><span class="stat__num" data-count="25.2" data-decimals="1" data-suffix="%">0%</span><p>pagaría COP 250.000–450.000. Meta del proyecto: ≥ 50 % (P6).</p></div>
+    </div>
+
+    <div class="tabs reveal">
+      <div class="tabs__list" role="tablist" aria-label="Preguntas de la encuesta">
+        <button role="tab" class="is-active" aria-selected="true" data-tab="p2">Frecuencia de limpieza</button>
+        <button role="tab" aria-selected="false" data-tab="p3">Barreras</button>
+        <button role="tab" aria-selected="false" data-tab="p4">Método actual</button>
+        <button role="tab" aria-selected="false" data-tab="p6">Disposición a pagar</button>
+        <button role="tab" aria-selected="false" data-tab="p7">Decisión de compra</button>
+      </div>
+
+      <div class="tabs__panel is-active" data-panel="p2">
+        <div class="panel-grid">
+          <div><h3 class="h4">¿Con qué frecuencia limpias tu esponja de maquillaje? (P2)</h3><div class="bars" data-chart="p2"></div></div>
+          <p class="panel-insight">Solo el 6,1 % (estimado) la limpia después de cada uso. La submuestra confirma, y acentúa, la brecha uso-limpieza de las fuentes secundarias (39–44 %).</p>
+        </div>
+      </div>
+      <div class="tabs__panel" data-panel="p3">
+        <div class="panel-grid">
+          <div><h3 class="h4">¿Qué influye en que no la laves más seguido? (P3)</h3><div class="bars" data-chart="p3"></div></div>
+          <p class="panel-insight">El problema es <strong>fricción</strong>, no falta de convicción: solo el 12,2 % cree que no es necesario limpiarla.</p>
+        </div>
+      </div>
+      <div class="tabs__panel" data-panel="p4">
+        <div class="panel-grid">
+          <div><h3 class="h4">¿Qué método usas hoy para limpiarla? (P4)</h3><div class="bars" data-chart="p4"></div></div>
+          <p class="panel-insight">BlendPure no compite con un rival instalado (solo 6,2 % usa un dispositivo): compite contra el hábito del jabón y el agua.</p>
+        </div>
+      </div>
+      <div class="tabs__panel" data-panel="p6">
+        <div class="panel-grid">
+          <div><h3 class="h4">Si un dispositivo beauty-tech resolviera el lavado y secado, ¿cuánto pagarías? (P6)</h3><div class="bars" data-chart="p6"></div></div>
+          <p class="panel-insight">El 95,2 % le ve algún grado de utilidad (P5), pero solo el 25,2 % pagaría el rango de trabajo. El concepto interesa; <strong>el precio no está validado</strong>.</p>
+        </div>
+      </div>
+      <div class="tabs__panel" data-panel="p7">
+        <div class="panel-grid">
+          <div><h3 class="h4">Factor que más influye en comprar (P7)</h3><div class="bars" data-chart="p7"></div></div>
+          <p class="panel-insight">El 81 % se apoya en reseñas de creadoras y demos en video: respalda una estrategia de canales con microinfluencers, Instagram y TikTok.</p>
+        </div>
+      </div>
+      <p class="source">Fuente: elaboración propia (Grupo BlendPure, 2026). (est.) = calculado por diferencia a 100 %.</p>
+    </div>
+
+    <div class="split">
+      <div class="verdict verdict--ok reveal">
+        <span class="eyebrow">Confirma</span>
+        <ul><li>Uso frecuente, limpieza escasa</li><li>Causa principal: fricción del proceso</li><li>Utilidad percibida alta (95,2 %)</li></ul>
+      </div>
+      <div class="verdict verdict--alert reveal">
+        <span class="eyebrow">Alerta</span>
+        <ul><li>Solo 25,2 % paga en el rango objetivo</li><li>56,5 % pagaría menos de COP 150.000</li></ul>
+      </div>
+    </div>
+
+    <h3 class="h3 reveal">Estado de los objetivos del proyecto</h3>
+    <ol class="objectives reveal">
+      <li><span class="obj__n">01</span><p>Caracterizar la frecuencia y las barreras de limpieza</p><span class="badge badge--ok">Cumplido · encuesta n = 147</span></li>
+      <li><span class="obj__n">02</span><p>Dimensionar el mercado (TAM y SAM)</p><span class="badge badge--ok">Cumplido · documental</span></li>
+      <li><span class="obj__n">03</span><p>Comparar BlendPure con competidores y sustitutos</p><span class="badge badge--ok">Cumplido · documental y entrevistas</span></li>
+      <li><span class="obj__n">04</span><p>Medir la disposición a pagar en COP 250.000–450.000 (meta ≥ 50 %)</p><span class="badge badge--alert">Medido: 25,2 % · meta no alcanzada</span></li>
+      <li><span class="obj__n">05</span><p>Validar el mockup con mínimo 15 potenciales usuarias</p><span class="badge badge--muted">No realizado en esta fase</span></li>
+    </ol>
+
+    <h3 class="h3 reveal">Qué cambió después de la evidencia primaria</h3>
+    <div class="table-wrap reveal">
+      <table class="table">
+        <thead><tr><th>Pilar</th><th>Fuentes secundarias</th><th>Evidencia primaria</th><th>Estado</th></tr></thead>
+        <tbody>
+          <tr><td>Problema real</td><td>39–44 % casi no limpia sus herramientas</td><td>68 % limpia una vez al mes o menos; 22,4 % nunca</td><td><span class="badge badge--ok">Reforzado</span></td></tr>
+          <tr><td>Fricción</td><td>El proceso manual toma tiempo y esfuerzo</td><td>87,7 % señala olvido, pereza o tiempo; 5 especialistas coinciden</td><td><span class="badge badge--ok">Reforzado</span></td></tr>
+          <tr><td>Oportunidad</td><td>Beauty-tech crece 13,3 % anual (global)</td><td>95,2 % ve algún grado de utilidad en el concepto</td><td><span class="badge badge--ok">Reforzado</span></td></tr>
+          <tr><td>Diferenciación</td><td>Sin solución que integre las 4 etapas</td><td>Solo 6,2 % usa un dispositivo (est.); piden pruebas de UV-C</td><td><span class="badge badge--warn">Con condiciones</span></td></tr>
+          <tr><td>Validación</td><td>Sin evidencia de disposición a pagar</td><td>25,2 % pagaría el rango objetivo (meta: 50 %)</td><td><span class="badge badge--alert">No validada</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note reveal"><strong>Limitaciones.</strong> Muestra por conveniencia (solo universitarias), autoselección, preguntas cerradas y sin datos de edad ni estrato. Es evidencia exploratoria: no puede generalizarse a todo el segmento objetivo.</p>
+  </div>
+</section>
+
+<!-- ===================== 9. ENTREVISTAS ===================== -->
+<section class="section section--blush" id="entrevistas">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Entrevistas a especialistas</p>
+      <h2 class="h2">Validan el problema, pero exigen pruebas.</h2>
+      <p class="section__intro">Entrevistas semiestructuradas a especialistas en uso e higiene (2 dermatólogas, 2 maquilladoras profesionales y 1 beauty creator) y en negocio (marketing y e-commerce). Citas textuales de las transcripciones. Evidencia cualitativa, no estadística.</p>
+    </header>
+
+    <div class="quotes" id="quotes">
+      <div class="quotes__track">
+        <figure class="quote is-active"><blockquote>“No me sirve de mucho lavarla si después tengo que esperar horas a que se seque.”</blockquote><figcaption>Laura Quiñonez · maquilladora social y de eventos</figcaption></figure>
+        <figure class="quote"><blockquote>“La principal barrera es la conveniencia: que sea fácil, rápido.”</blockquote><figcaption>Camila Hoyos · beauty creator</figcaption></figure>
+        <figure class="quote"><blockquote>“No diría que el valor es prevenir enfermedades: sería una promesa demasiado grande.”</blockquote><figcaption>Dra. Andrea · dermatóloga, Sanitas</figcaption></figure>
+        <figure class="quote"><blockquote>“Para ser un producto que únicamente limpia esponjas, la verdad sí se lo veo alto al consumidor.”</blockquote><figcaption>Tatiana Gómez · marketing, Mut Studio</figcaption></figure>
+      </div>
+      <div class="quotes__dots" role="tablist" aria-label="Citas"></div>
+    </div>
+
+    <div class="cards cards--3">
+      <article class="card reveal"><span class="eyebrow">Coinciden en</span><ul class="dots"><li>La causa es fricción: pereza, tiempo y secado, no falta de conocimiento.</li><li>El valor a comunicar es ahorro de tiempo y comodidad.</li></ul></article>
+      <article class="card reveal"><span class="eyebrow">Piden validar</span><ul class="dots"><li>Tiempo real del ciclo completo y que no deteriore la esponja.</li><li>Evidencia independiente de UV-C; no prometer “elimina el 100 %” (Dras. Andrea y Ciraldo).</li></ul></article>
+      <article class="card reveal"><span class="eyebrow">Matiz clave</span><ul class="dots"><li>Paola Puentes (maquilladora) no usa esponjas por bioseguridad: usa borlas desechables y brochas.</li><li>Esperaría máximo 3 minutos entre clientas y lo prefiere en casa; la UV-C no justifica subir tarifas.</li></ul></article>
+    </div>
+
+    <h3 class="h3 reveal">En negocio: el precio y la confianza son el reto</h3>
+    <div class="cards cards--3">
+      <article class="card card--metric reveal"><span class="eyebrow">Precio</span><strong>Alto</strong><p>El rango COP 250.000–450.000 se percibe alto para un producto que solo limpia esponjas (T. Gómez). Coincide con la encuesta.</p></article>
+      <article class="card card--metric reveal"><span class="eyebrow">Confianza</span><strong>6–7 %</strong><p>Comprarle a una marca nueva es el reto principal. El video demostrativo en la landing es “100 % indispensable”; con landing optimizada su operación logra conversiones de 6–7 % (M. Saldarriaga, Ocuz).</p></article>
+      <article class="card card--metric reveal"><span class="eyebrow">Canales</span><strong>Video</strong><p>TikTok, Reels y microcreadoras; antes/después y tiempo ahorrado. TikTok Shop como objetivo 2027; pago contra entrega clave en Colombia.</p></article>
+    </div>
+    <p class="source reveal">La tasa de 6–7 % corresponde a la operación del entrevistado, no a un dato de mercado ni a una proyección de BlendPure.</p>
+  </div>
+</section>
+
+<!-- ===================== 10. MARCO TEÓRICO ===================== -->
+<section class="section" id="marco">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Marco teórico</p>
+      <h2 class="h2">Ocho conceptos que fundamentan decisiones concretas.</h2>
+    </header>
+
+    <div class="filters reveal" role="group" aria-label="Filtrar conceptos">
+      <button class="is-active" data-filter="all">Todos</button>
+      <button data-filter="consumidor">Comportamiento del consumidor</button>
+      <button data-filter="estrategia">Estrategia</button>
+      <button data-filter="relacion">Relación con la clienta</button>
+    </div>
+
+    <div class="theory" id="theory"><!-- se llena con JS --></div>
+
+    <h3 class="h3 reveal">Contraste con los datos</h3>
+    <div class="table-wrap reveal">
+      <table class="table">
+        <thead><tr><th>Concepto</th><th>Qué predice para BlendPure</th><th>Qué encontramos</th><th>Lectura</th></tr></thead>
+        <tbody>
+          <tr><td>Acción planificada (Ajzen, 1991)</td><td>La intención no se traduce en conducta</td><td>95,2 % ve utilidad, pero 68 % limpia una vez al mes o menos; 87,7 % cita fricción</td><td><span class="badge badge--ok">Respaldada</span></td></tr>
+          <tr><td>Difusión de innovaciones (Rogers, 1962)</td><td>Empezar con adoptantes tempranos (beauty creators)</td><td>81 % decide por video y reseñas de creadoras; la creadora entrevistada recomienda microcreadores</td><td><span class="badge badge--ok">Respaldada (cualitativa)</span></td></tr>
+          <tr><td>Value Proposition Canvas (Osterwalder et al., 2014)</td><td>Aliviar el dolor de tiempo y esfuerzo</td><td>El secado y la espera son la queja central; una maquilladora esperaría máx. 3 minutos</td><td><span class="badge badge--ok">Respaldada</span></td></tr>
+          <tr><td>STP (Kotler y Armstrong, 2018)</td><td>Segmento prioritario: mujeres de 18–35 en Bogotá</td><td>La muestra fue solo universitarias; una maquilladora de moda no usa esponjas; solo 25,2 % paga el rango</td><td><span class="badge badge--warn">Segmento por redefinir</span></td></tr>
+          <tr><td>Customer Lifetime Value (Gupta y Lehmann, 2003)</td><td>Recompra de cápsulas (Refill Club)</td><td>No se midió en la encuesta ni en las entrevistas</td><td><span class="badge badge--muted">Sin evidencia aún</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="source reveal">Evidencia exploratoria: contrasta, no prueba, las teorías. Bibliografía completa en el documento del proyecto.</p>
+  </div>
+</section>
+
+<!-- ===================== 11. MARKETING DIGITAL ===================== -->
+<section class="section section--sand" id="marketing">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Marketing digital</p>
+      <h2 class="h2">Demostrar antes de vender.</h2>
+      <p class="section__intro">La estrategia se desprende de la evidencia: la decisión de compra depende del video y de las creadoras, la confianza en una marca nueva es la principal barrera y el mensaje debe ser <strong>tiempo ahorrado</strong>, no higiene absoluta.</p>
+    </header>
+
+    <div class="journey reveal" id="journey">
+      <div class="journey__tabs" role="tablist" aria-label="Customer journey">
+        <button role="tab" class="is-active" aria-selected="true" data-stage="0"><span>01</span>Descubrimiento</button>
+        <button role="tab" aria-selected="false" data-stage="1"><span>02</span>Consideración</button>
+        <button role="tab" aria-selected="false" data-stage="2"><span>03</span>Compra</button>
+        <button role="tab" aria-selected="false" data-stage="3"><span>04</span>Uso y recompra</button>
+      </div>
+      <div class="journey__panel" id="journeyPanel" aria-live="polite"><!-- JS --></div>
+    </div>
+
+    <div class="cards cards--4">
+      <article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8"/></svg></div><h3>Instagram</h3><p>Reels de antes/después y del ciclo completo; colaboraciones con microcreadoras de maquillaje.</p></article>
+      <article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24"><path d="M14 3v11a4 4 0 1 1-4-4"/><path d="M14 3c.5 2.5 2.5 4.5 5 5"/></svg></div><h3>TikTok</h3><p>Demostraciones en tiempo real y contenido de rutina. TikTok Shop como objetivo para 2027.</p></article>
+      <article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7L4 20Z"/></svg></div><h3>WhatsApp</h3><p>Atención uno a uno, resolución de dudas y seguimiento posventa conectado al CRM.</p></article>
+      <article class="card reveal"><div class="icon"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="3"/><path d="M10 9l5 2.5-5 2.5V9ZM8 21h8"/></svg></div><h3>Landing / tienda web</h3><p>Video demostrativo como pieza central, preguntas frecuentes honestas y pago contra entrega.</p></article>
+    </div>
+
+    <div class="split">
+      <div class="card card--feature reveal">
+        <span class="eyebrow">Modelo de recompra</span>
+        <h3>BlendPure Refill Club</h3>
+        <p>Suscripción propuesta de cápsulas de limpiador para construir ingresos recurrentes, aprendiendo de Color&amp;Co y Clarisonic: una buena primera compra no basta. Fundamentado en Customer Lifetime Value (Gupta y Lehmann, 2003).</p>
+        <p class="fineprint">Hipótesis sin evidencia aún: la recompra de cápsulas no se midió en la encuesta ni en las entrevistas.</p>
+      </div>
+      <div class="card reveal">
+        <span class="eyebrow">Métricas a seguir</span>
+        <ul class="kpis">
+          <li><strong>Alcance y visualizaciones</strong> de los videos demostrativos</li>
+          <li><strong>Engagement</strong> con contenido de creadoras</li>
+          <li><strong>CTR</strong> de redes a la landing</li>
+          <li><strong>Tasa de conversión</strong> de la landing</li>
+          <li><strong>CAC</strong> por canal</li>
+          <li><strong>Tasa de recompra</strong> de cápsulas y CLV</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="messages reveal">
+      <div class="messages__col messages__col--do">
+        <span class="eyebrow">Comunicar</span>
+        <ul><li>Tiempo ahorrado frente al proceso manual</li><li>Comodidad: un solo ciclo, sin pensar en el paso a paso</li><li>Demostración real: duración del ciclo y antes/después</li></ul>
+      </div>
+      <div class="messages__col messages__col--dont">
+        <span class="eyebrow">Evitar</span>
+        <ul><li>“Elimina el 99,9 % de las bacterias”</li><li>“Previene infecciones”</li><li>“Garantiza higiene total”</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 12. CONCLUSIONES ===================== -->
+<section class="section section--dark" id="conclusiones">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow eyebrow--light">Conclusiones</p>
+      <h2 class="h2">El problema está respaldado. El precio, todavía no.</h2>
+    </header>
+
+    <div class="equation reveal">
+      <span>Problema real</span><b>+</b><span>Fricción de tiempo</span><b>+</b><span>Oportunidad beauty-tech</span><b>=</b><span class="equation__result">BlendPure</span>
+    </div>
+
+    <div class="conclusions">
+      <article class="reveal"><span>01</span><h3>La fricción es real</h3><p>El 68 % limpia su esponja una vez al mes o menos y el 87,7 % lo atribuye a olvido, pereza o tiempo. Las especialistas coinciden: el problema es de hábito, no de conocimiento.</p></article>
+      <article class="reveal"><span>02</span><h3>Hay espacio para diferenciarse</h3><p>No encontramos un competidor que integre las cuatro etapas en un solo ciclo, y solo el 6,2 % usa hoy un dispositivo. El rival real es el jabón y el agua.</p></article>
+      <article class="reveal"><span>03</span><h3>El precio no está validado</h3><p>El 95,2 % le ve utilidad, pero solo el 25,2 % pagaría el rango objetivo frente a una meta del 50 %. La propuesta debe defender su precio con tiempo ahorrado o revisarse.</p></article>
+      <article class="reveal"><span>04</span><h3>La confianza se gana con evidencia</h3><p>Video demostrativo, creadoras y pruebas independientes de la desinfección UV-C son condiciones para comunicar el producto sin promesas sanitarias exageradas.</p></article>
+    </div>
+
+    <blockquote class="closing reveal">“BlendPure busca convertir una tarea que las consumidoras evitan en una rutina simple, rápida y automatizada.”</blockquote>
+  </div>
+</section>
+
+<!-- ===================== 13. BOLSA DE COMPRA ===================== -->
+<section class="section" id="bolsa">
+  <div class="container">
+    <header class="section__head reveal">
+      <p class="eyebrow">Bolsa de compra</p>
+      <h2 class="h2">Tu bolsa</h2>
+      <p class="section__intro">Simulación de la experiencia de e-commerce propuesta. No se procesan pagos ni se realizan envíos.</p>
+    </header>
+    <div class="bag reveal">
+      <div class="bag__items" id="bagItems"><!-- JS --></div>
+      <aside class="bag__summary">
+        <h3 class="h4">Resumen</h3>
+        <dl>
+          <div><dt>Subtotal</dt><dd id="bagSubtotal">COP $0</dd></div>
+          <div><dt>Envío</dt><dd>No disponible</dd></div>
+          <div class="is-total"><dt>Total de referencia</dt><dd id="bagTotal">COP $0</dd></div>
+        </dl>
+        <button class="btn btn--primary btn--block" id="checkout">Finalizar compra</button>
+        <p class="fineprint">Demostración académica: el botón no realiza ningún cobro.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div>
+      <a href="#inicio" class="logo logo--light"><span class="logo__mark" aria-hidden="true"></span><span class="logo__text">BLENDPURE</span></a>
+      <p>Estación inteligente de cuidado de belleza. Proyecto académico conceptual.</p>
+      <p class="footer__team">Manuela Granados · Danna Sáenz · Isabela Carmona · Laura Quiñones<br>Pontificia Universidad Javeriana · Mercadeo en Internet · 2026</p>
+    </div>
+    <details class="footer__sources">
+      <summary>Fuentes citadas</summary>
+      <p>Beautyblender (2025, s.f.); Salon Services (s.f.); Bashir y Lambert, Aston University, citados en EMJ Reviews (2020); Verified Market Research (2025); DataInsightsMarket (2026); Mordor Intelligence (2026); Research and Markets (2026); DANE vía Telencuestas (2025); PCM Agencia (2025); Accenture y TikTok, citado en El Colombiano (2024); Forbes (2021, 2022); Perks With Pink (2026); Drug Store News (s.f.); Fortune (2017); WWD (2020); Business of Business (2020); Stylideas (s.f.); Boots (s.f.). Teoría: Rogers (1962); Ajzen (1991); Kotler y Armstrong (2018); Osterwalder, Pigneur, Bernarda y Smith (2014); Payne y Frow (2005); Verhoef, Kannan e Inman (2015); Lemon y Verhoef (2016); Gupta y Lehmann (2003). Evidencia primaria: encuesta (n = 147) y entrevistas, elaboración propia (Grupo BlendPure, 2026).</p>
+    </details>
+  </div>
+  <p class="footer__legal">BlendPure es una propuesta universitaria. Las marcas de terceros se mencionan solo con fines de análisis competitivo.</p>
+</footer>
+
+<!-- ===================== DRAWER BOLSA ===================== -->
+<div class="overlay" id="overlay" hidden></div>
+<aside class="drawer" id="drawer" aria-label="Bolsa de compra" aria-hidden="true">
+  <div class="drawer__head">
+    <h3>Tu bolsa</h3>
+    <button class="icon-btn" id="cartClose" aria-label="Cerrar bolsa">×</button>
+  </div>
+  <div class="drawer__body" id="drawerItems"></div>
+  <div class="drawer__foot">
+    <div class="drawer__total"><span>Total de referencia</span><strong id="drawerTotal">COP $0</strong></div>
+    <a href="#bolsa" class="btn btn--primary btn--block" id="goBag">Ver bolsa</a>
+    <p class="fineprint">Simulación académica. No se procesan pagos.</p>
+  </div>
+</aside>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
